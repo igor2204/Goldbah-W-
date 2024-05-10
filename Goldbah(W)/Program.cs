@@ -16,7 +16,6 @@
     }
     return true;
 }
-
 static void FindGoldbachPairs(int num)
 {
     for (int i = 2; i <= num / 2; i++)
@@ -27,11 +26,8 @@ static void FindGoldbachPairs(int num)
         }
     }
 }
-
-
 Console.WriteLine("Введите число для проверки Проблемы Гольдбаха:");
 int number = Convert.ToInt32(Console.ReadLine());
-
 if (number % 2 != 0 || number <= 2)
 {
     Console.WriteLine("Для нечетных чисел или чисел меньше или равных 2 решения не существует.");
